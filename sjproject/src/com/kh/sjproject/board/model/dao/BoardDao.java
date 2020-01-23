@@ -18,7 +18,7 @@ import com.kh.sjproject.board.model.vo.Reply;
 public class BoardDao {
 	private Properties prop = null;
 
-	public BoardDao() throws Exception{
+	public BoardDao() throws Exception{  
 		String fileName =
 				BoardDao.class
 				.getResource("/com/kh/sjproject/sql/board/board-query.properties").getPath();
